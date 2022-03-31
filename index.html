@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section id="main">
+        <div id="container">
+            <select name="units" id="units">
+                <option value=""></option>
+                <option value="length">Length</option>
+                <option value="Volume">Volume</option>
+            <option value="area">Area</option>
+            <option value="mass">Mass</option>
+            </select>
+            <input type="number" id="qty">
+            <select name="SIunits" id="SIunits">
+                <option value=""></option>
+                <option id="unitOpt" value="tonnes" style="display: none;">tonnes</option>
+                <option id="unitOpt1" value="kilogram" style="display: none;">kilogram</option>
+                <option id="unitOpt2" value="grams" style="display: none;">grams</option>
+                
+            </select>
+            <input type="number" id="qty2">
+            <select name="SIunits2" id="SIunits2">
+                <option value=""></option>
+                <option value="tonnes">tonnes</option>
+                <option value="kilogram">kilogram</option>
+                <option value="grams">grams</option>
+                
+            </select>
+        </div>
+    </section>
+
+    <script src="/js/index.js"></script>
+</body>
+</html>
